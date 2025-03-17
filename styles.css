@@ -6,10 +6,15 @@ body {
 }
 
 header {
-    background: #35424a;
+    background: rgba(53, 66, 74, 0.9);
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
 }
 
 nav ul {
@@ -28,24 +33,18 @@ nav ul li a {
 }
 
 .hero {
-    position: relative;
-    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1920');
+    background-size: cover;
+    background-position: center;
     color: white;
+    padding: 100px 20px;
+    text-align: center;
 }
 
-.hero-image {
-    width: 100%;
-    height: auto;
-}
-
-.hero h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
+.hero-content {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 main {
